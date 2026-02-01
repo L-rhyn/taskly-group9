@@ -2,7 +2,7 @@
 
 import React, { createContext, useContext } from "react";
 import type { User } from "firebase/auth";
-import useAuth from "../firebase/useAuth";
+import useAuth from ".useAuth";
 
 type AuthState = {
   user: User | null;
